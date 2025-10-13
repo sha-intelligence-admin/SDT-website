@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+  --primary: #476dd2;
+  --secondary: #000000;
+}
+
+/* Load Google Sans Text if available, fallback to specified fonts */
+@font-face {
+  font-family: 'Google Sans Text';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Google Sans Text Regular'), local('GoogleSansText-Regular');
+}
+
+body {
+  color: var(--foreground);
+  background: #ffffff;
+  font-family: 'Google Sans Text', Arial, Helvetica, sans-serif;
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+}
