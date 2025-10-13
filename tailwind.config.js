@@ -1,17 +1,16 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './pages/**/*.{js,jsx,mdx}',
-    './components/**/*.{js,jsx,mdx}',
-    './app/**/*.{js,jsx,mdx}',
+    './index.html',
+    './src/**/*.{js,jsx,ts,tsx}',
   ],
   theme: {
     extend: {
       colors: {
         background: '#ffffff',
-        foreground: '#171717',
-        primary: '#000000',
-        secondary: '#476dd2',
+        foreground: '#1f1f1f',
+        primary: '#476dd2',
+        secondary: '#000000',
       },
       fontFamily: {
         'sans': ['Google Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Arial', 'sans-serif'],
