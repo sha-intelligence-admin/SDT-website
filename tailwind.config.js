@@ -14,7 +14,7 @@ module.exports = {
         secondary: '#476dd2',
       },
       fontFamily: {
-        'sans': ['Google Sans Text', 'Arial', 'Helvetica', 'sans-serif'],
+        'sans': ['Google Sans', '-apple-system', 'BlinkMacSystemFont', 'Segoe UI', 'Roboto', 'Arial', 'sans-serif'],
       },
     },
   },

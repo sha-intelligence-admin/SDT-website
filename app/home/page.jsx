@@ -63,10 +63,15 @@ const Homepage = () => {
           transition={{ duration: 0.6 }}
           className="flex flex-col sm:flex-row sm:space-x-4 sm:space-y-0 space-y-4"
         >
-          <Button size="lg"> Our Programs</Button>
-          <Button size="lg" variant="outline">
-            {' '}
-            Our Mission
+          <Button
+          onClick={() => window.location.href = '/funding'}
+          size="lg" > Our Programs</Button>
+          <Button 
+          onClick={() => window.location.href = '/about'}
+          size="lg" variant="outline"
+          href="/about"
+          >
+            About SDT
           </Button>
         </motion.div>
         <motion.div
@@ -138,7 +143,7 @@ const Homepage = () => {
         </div>
       </section>
       <section>
-        
+
       </section>
     </div>
   );

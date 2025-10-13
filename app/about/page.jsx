@@ -16,8 +16,9 @@ const About = () => {
           className="mt-20 w-full mx-auto text-center items-center justify-center"
         >
           <div className="p-2 px-6 rounded-full border border-gray-300 inline-block">
-            <h1 className="text-sm text-gray-800 leading-snug">ABOUT SDT</h1>
+            <h1 className="text-sm text-gray-800 leading-snug">About SDT</h1>
           </div>
+
 
           <h1 className="mt-6 text-3xl sm:text-4xl lg:text-5xl leading-relaxed italic">
             &quot;Technology for Humanity&quot;
