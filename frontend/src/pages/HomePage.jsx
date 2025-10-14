@@ -5,7 +5,7 @@ import Marquee from 'react-fast-marquee';
 import { useNavigate } from 'react-router-dom';
 import Button from '../components/Button';
 import FocusCard from '../components/FocusCard';
-import LazyImage from '../components/LazyImage';
+// import LazyImage from '../components/LazyImage';
 import { ChevronRight, GraduationCapIcon, Handshake, Lightbulb, Shield } from 'lucide-react';
 
 const HomePage = () => {
@@ -83,7 +83,7 @@ const HomePage = () => {
           <Marquee
             speed={30}
             pauseOnHover={true}
-            gradient={true}
+            gradient={false}
             grayscale={false}
           >
             {[

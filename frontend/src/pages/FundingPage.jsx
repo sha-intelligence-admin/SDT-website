@@ -1,12 +1,12 @@
 import React from 'react';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
-import LazyImage from '../components/LazyImage';
+// import img from '../components/LazyImage';
 
 const FundingPage = () => {
     return (
         <div>
-            <section id="hero" className="w-full min-h-[600px] flex flex-col items-center justify-center bg-white overflow-hidden">
+            <section id="hero" className="w-full min-h-[600px] flex flex-col items-center justify-center bg-white overflow-hidden px-4">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -27,7 +27,7 @@ const FundingPage = () => {
             >
                 {/* Image side */}
                 <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
-                    <LazyImage
+                    <img
                         src="/images/AIFA.png"
                         alt="AI for africa"
                         className="w-full h-full object-cover"
@@ -56,7 +56,7 @@ const FundingPage = () => {
             >
                 {/* Image side */}
                 <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
-                    <LazyImage
+                    <img
                         src="/images/collab.jpg"
                         alt="Human-centered technology"
                         className="w-full h-full object-cover"
@@ -85,7 +85,7 @@ const FundingPage = () => {
             >
                 {/* Image side */}
                 <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
-                    <LazyImage
+                    <img
                         src="/images/accelerator.jpg"
                         alt="Human-centered technology"
                         className="w-full h-full object-cover"
@@ -114,7 +114,7 @@ const FundingPage = () => {
             >
                 {/* Image side */}
                 <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
-                    <LazyImage
+                    <img
                         src="/images/safeTech.jpg"
                         alt="Human-centered technology"
                         className="w-full h-full object-cover"
@@ -143,7 +143,7 @@ const FundingPage = () => {
             >
                 {/* Image side */}
                 <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
-                    <LazyImage
+                    <img
                         src="/images/literacy.jpg"
                         alt="Human-centered technology"
                         className="w-full h-full object-cover"

@@ -1,7 +1,7 @@
 import React from 'react';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
-import LazyImage from '../components/LazyImage';
+// import img from '../components/LazyImage';
 
 const AboutPage = () => {
   return (
@@ -17,7 +17,7 @@ const AboutPage = () => {
             <h1 className="text-sm text-gray-800 leading-snug">About SDT</h1>
           </div>
 
-          <h1 className="mt-6 text-3xl sm:text-4xl lg:text-5xl italic">
+          <h1 className="mt-6 px-4 text-3xl sm:text-4xl lg:text-5xl italic">
             &ldquo;Technology for Humanity&rdquo;
           </h1>
         </motion.div>
@@ -71,7 +71,7 @@ const AboutPage = () => {
       >
         {/* Image side */}
         <div className="relative w-full lg:w-1/2 overflow-hidden">
-          <LazyImage
+          <img
             src="/images/sha.png"
             alt="Human-centered technology"
             className="w-full"
@@ -99,7 +99,7 @@ const AboutPage = () => {
       >
         {/* Image side */}
         <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
-          <LazyImage
+          <img
             src="/images/safe.jpg"
             alt="Human-centered technology"
             className="w-full h-full object-cover"
@@ -133,7 +133,7 @@ const AboutPage = () => {
       >
         {/* Image side */}
         <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
-          <LazyImage
+          <img
             src="/images/serve.jpg"
             alt="Human-centered technology"
             className="w-full h-full object-cover"
@@ -166,7 +166,7 @@ const AboutPage = () => {
       >
         {/* Image side */}
         <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
-          <LazyImage
+          <img
             src="/images/innovation.jpg"
             alt="Human-centered technology"
             className="w-full h-full object-cover"
@@ -201,7 +201,7 @@ const AboutPage = () => {
       >
         {/* Image side */}
         <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
-          <LazyImage
+          <img
             src="/images/responsibly.jpg"
             alt="Human-centered technology"
             className="w-full h-full object-cover"

@@ -1,11 +1,11 @@
 // import Image from 'next/image'
 import React from 'react'
-import LazyImage from './LazyImage'
+// import LazyImage from './LazyImage'
 
 const FocusCard = ({item}) => {
   return (
     <div className='rounded-lg text-start py-4 m-4 flex flex-col items-start'>
-        <LazyImage
+        <img
             src={item.image}
             alt={item.title}
             className="rounded-lg aspect-[3/4] object-cover w-full"

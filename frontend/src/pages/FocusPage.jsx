@@ -1,7 +1,7 @@
 import React from 'react';
 // eslint-disable-next-line no-unused-vars
 import { motion } from 'framer-motion';
-import LazyImage from '../components/LazyImage';
+// import img from '../components/img';
 
 const FocusPage = () => {
   return (
@@ -17,7 +17,7 @@ const FocusPage = () => {
             <h1 className="text-sm text-gray-800 leading-snug">Our Focus</h1>
           </div>
 
-          <h1 className="mt-6 text-3xl sm:text-4xl lg:text-5xl italic">
+          <h1 className="mt-6 px-4 text-3xl sm:text-4xl lg:text-5xl italic">
             &ldquo;Empowering people through ethical technology&rdquo;
           </h1>
         </motion.div>
@@ -35,7 +35,7 @@ const FocusPage = () => {
       >
         {/* Image side */}
         <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
-          <LazyImage
+          <img
             src="/images/learning.jpg"
             alt="Human-centered technology"
             className="w-full h-full object-cover"
@@ -72,7 +72,7 @@ const FocusPage = () => {
       >
         {/* Image side */}
         <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
-          <LazyImage
+          <img
             src="/images/research.jpg"
             alt="Human-centered technology"
             className="w-full h-full object-cover"
@@ -109,7 +109,7 @@ const FocusPage = () => {
       >
         {/* Image side */}
         <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
-          <LazyImage
+          <img
             src="/images/support.jpg"
             alt="Human-centered technology"
             className="w-full h-full object-cover"
@@ -146,7 +146,7 @@ const FocusPage = () => {
       >
         {/* Image side */}
         <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
-          <LazyImage
+          <img
             src="/images/governance.jpg"
             alt="Human-centered technology"
             className="w-full h-full object-cover"
