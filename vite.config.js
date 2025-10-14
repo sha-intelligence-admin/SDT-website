@@ -4,8 +4,12 @@ import react from '@vitejs/plugin-react'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
-  server: {
-    host: true
+ server: {
+    allowedHosts: [
+      'sdt-website.onrender.com', // ✅ allow your Render domain
+    ],
+    host: true, // 👈 allows external access (important for Render)
+    port: process.env.PORT || 5173, // 👈 makes sure Render port works
   },
   build: {
     // Optimize bundle size
