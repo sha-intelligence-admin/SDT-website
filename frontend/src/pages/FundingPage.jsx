@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const FundingPage = () => {
     return (
         <div>
-            <section id="hero" className="w-full min-h-[600px] flex flex-col items-center justify-center bg-white overflow-hidden px-4">
+            <section id="hero" className="w-full min-h-[800px] flex flex-col items-center justify-center bg-white overflow-hidden px-4">
                 <motion.div
                     initial={{ opacity: 0, y: 20 }}
                     animate={{ opacity: 1, y: 0 }}
@@ -23,7 +23,7 @@ const FundingPage = () => {
             </section>
             <section
                 id="about"
-                className="relative w-full min-h-screen flex flex-col lg:flex-row items-center justify-center bg-white overflow-hidden px-6 lg:px-16 py-12"
+                className="relative w-full flex flex-col lg:flex-row items-center justify-center bg-white overflow-hidden px-6 lg:px-16 py-12"
             >
                 {/* Image side */}
                 <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
@@ -52,7 +52,7 @@ const FundingPage = () => {
             </section>
             <section
                 id="about"
-                className="relative w-full min-h-screen flex flex-col lg:flex-row-reverse items-center justify-center bg-white overflow-hidden px-6 lg:px-16 py-12"
+                className="relative w-full flex flex-col lg:flex-row-reverse items-center justify-center bg-white overflow-hidden px-6 lg:px-16 py-12"
             >
                 {/* Image side */}
                 <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
@@ -81,7 +81,7 @@ const FundingPage = () => {
             </section>
             <section
                 id="about"
-                className="relative w-full min-h-screen flex flex-col lg:flex-row items-center justify-center bg-white overflow-hidden px-6 lg:px-16 py-12"
+                className="relative w-full flex flex-col lg:flex-row items-center justify-center bg-white overflow-hidden px-6 lg:px-16 py-12"
             >
                 {/* Image side */}
                 <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
@@ -110,7 +110,7 @@ const FundingPage = () => {
             </section>
             <section
                 id="about"
-                className="relative w-full min-h-screen flex flex-col lg:flex-row-reverse items-center justify-center bg-white overflow-hidden px-6 lg:px-16 py-12"
+                className="relative w-full flex flex-col lg:flex-row-reverse items-center justify-center bg-white overflow-hidden px-6 lg:px-16 py-12"
             >
                 {/* Image side */}
                 <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
@@ -139,7 +139,7 @@ const FundingPage = () => {
             </section>
             <section
                 id="about"
-                className="relative w-full min-h-screen flex flex-col lg:flex-row items-center justify-center bg-white overflow-hidden px-6 lg:px-16 py-12"
+                className="relative w-full flex flex-col lg:flex-row items-center justify-center bg-white overflow-hidden px-6 lg:px-16 py-12"
             >
                 {/* Image side */}
                 <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
