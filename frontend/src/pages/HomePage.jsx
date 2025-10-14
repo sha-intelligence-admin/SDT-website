@@ -141,9 +141,9 @@ const HomePage = () => {
             <FocusCard key={index} item={item} />
           ))}
         </div>
-        <a href="/focus" className="text-secondary">
+        {/* <a href="/focus" className="text-secondary">
           Learn More
-        </a>
+        </a> */}
       </section>
       {/* <section
         id="cta"

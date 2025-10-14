@@ -80,6 +80,14 @@ const Header = () => {
           >
             About SDT
           </Link>
+           <Link
+            to="/contact"
+            className={`transition ${
+              isActive('/contact') ? 'text-secondary' : 'hover:text-secondary'
+            }`}
+          >
+            Contact Us
+          </Link>
           <Link
             to="/terms"
             className={`transition ${
@@ -166,6 +174,17 @@ const Header = () => {
                   onClick={closeDrawer}
                 >
                   About SDT
+                </Link>
+                <Link
+                  to="/contact"
+                  className={`transition ${
+                    isActive('/contact')
+                      ? 'text-secondary'
+                      : 'hover:text-secondary'
+                  }`}
+                  onClick={closeDrawer}
+                >
+                  Contact Us
                 </Link>
                 <Link
                   to="/terms"

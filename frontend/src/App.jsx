@@ -9,6 +9,7 @@ import PrivacyPage from './pages/PrivacyPage'
 import TermsPage from './pages/TermsPage'
 import FocusPage from './pages/FocusPage'
 import ScrollToTop from './components/ScrollToTop'
+import Contact from './pages/Contact'
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route path="/focus" element={<FocusPage />} />
           <Route path="/privacy" element={<PrivacyPage />} />
           <Route path="/terms" element={<TermsPage />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </main>
       <Footer />
