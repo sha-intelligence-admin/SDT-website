@@ -23,7 +23,7 @@ const FocusPage = () => {
         </motion.div>
         <div className="relative mt-12 w-full h-[600px] lg:h-[500px] overflow-hidden flex items-start justify-start">
           <img
-            src="/images/focus.jpg"
+            src="/images/focus.webp"
             alt="Human-centered technology"
             className="w-full h-full object-cover object-top"
           />
@@ -36,7 +36,7 @@ const FocusPage = () => {
         {/* Image side */}
         <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
           <img
-            src="/images/learning.jpg"
+            src="/images/learning.webp"
             alt="Human-centered technology"
             className="w-full h-full object-cover"
           />
@@ -73,7 +73,7 @@ const FocusPage = () => {
         {/* Image side */}
         <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
           <img
-            src="/images/research.jpg"
+            src="/images/research.webp"
             alt="Human-centered technology"
             className="w-full h-full object-cover"
           />
@@ -110,7 +110,7 @@ const FocusPage = () => {
         {/* Image side */}
         <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
           <img
-            src="/images/support.jpg"
+            src="/images/support.webp"
             alt="Human-centered technology"
             className="w-full h-full object-cover"
           />
@@ -147,7 +147,7 @@ const FocusPage = () => {
         {/* Image side */}
         <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
           <img
-            src="/images/governance.jpg"
+            src="/images/governance.webp"
             alt="Human-centered technology"
             className="w-full h-full object-cover"
           />

@@ -23,7 +23,7 @@ const AboutPage = () => {
         </motion.div>
         <div className="relative mt-12 w-full h-[600px] lg:h-[500px] overflow-hidden flex items-start justify-start">
           <img
-            src="/images/humanity.jpg"
+            src="/images/humanity.webp"
             alt="Human-centered technology"
             className="w-full h-full object-cover object-top"
           />
@@ -72,7 +72,7 @@ const AboutPage = () => {
         {/* Image side */}
         <div className="relative w-full lg:w-1/2 overflow-hidden">
           <img
-            src="/images/sha.png"
+            src="/images/sha.webp"
             alt="Human-centered technology"
             className="w-full"
           />
@@ -100,7 +100,7 @@ const AboutPage = () => {
         {/* Image side */}
         <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
           <img
-            src="/images/safe.jpg"
+            src="/images/safe.webp"
             alt="Human-centered technology"
             className="w-full h-full object-cover"
           />
@@ -134,7 +134,7 @@ const AboutPage = () => {
         {/* Image side */}
         <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
           <img
-            src="/images/serve.jpg"
+            src="/images/serve.webp"
             alt="Human-centered technology"
             className="w-full h-full object-cover"
           />
@@ -167,7 +167,7 @@ const AboutPage = () => {
         {/* Image side */}
         <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
           <img
-            src="/images/innovation.jpg"
+            src="/images/innovation.webp"
             alt="Human-centered technology"
             className="w-full h-full object-cover"
           />
@@ -202,7 +202,7 @@ const AboutPage = () => {
         {/* Image side */}
         <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
           <img
-            src="/images/responsibly.jpg"
+            src="/images/responsibly.webp"
             alt="Human-centered technology"
             className="w-full h-full object-cover"
           />

@@ -28,7 +28,7 @@ const FundingPage = () => {
                 {/* Image side */}
                 <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
                     <img
-                        src="/images/AIFA.png"
+                        src="/images/AIFA.webp"
                         alt="AI for africa"
                         className="w-full h-full object-cover"
                     />
@@ -57,7 +57,7 @@ const FundingPage = () => {
                 {/* Image side */}
                 <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
                     <img
-                        src="/images/collab.jpg"
+                        src="/images/collab.webp"
                         alt="Human-centered technology"
                         className="w-full h-full object-cover"
                     />
@@ -86,7 +86,7 @@ const FundingPage = () => {
                 {/* Image side */}
                 <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
                     <img
-                        src="/images/accelerator.jpg"
+                        src="/images/accelerator.webp"
                         alt="Human-centered technology"
                         className="w-full h-full object-cover"
                     />
@@ -115,7 +115,7 @@ const FundingPage = () => {
                 {/* Image side */}
                 <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
                     <img
-                        src="/images/safeTech.jpg"
+                        src="/images/safeTech.webp"
                         alt="Human-centered technology"
                         className="w-full h-full object-cover"
                     />
@@ -144,7 +144,7 @@ const FundingPage = () => {
                 {/* Image side */}
                 <div className="relative w-full lg:w-1/2 h-[400px] lg:h-[500px] overflow-hidden">
                     <img
-                        src="/images/literacy.jpg"
+                        src="/images/literacy.webp"
                         alt="Human-centered technology"
                         className="w-full h-full object-cover"
                     />

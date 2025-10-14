@@ -16,28 +16,28 @@ const HomePage = () => {
       title: 'Education & Skills',
       description:
         'We help people learn the digital and AI skills they need to grow, create, and lead in a changing world.',
-      image: '/images/learning.jpg',
+      image: '/images/learning.webp',
       link: '#',
     },
     {
       title: 'Research & Ethics',
       description:
         'We explore how technology can stay safe, fair, and guided by human values.',
-      image: '/images/research.jpg',
+      image: '/images/research.webp',
       link: '#',
     },
     {
       title: 'Innovation & Support ',
       description:
         ' We back new ideas and startups using technology to solve real community challenges.',
-      image: '/images/support.jpg',
+      image: '/images/support.webp',
       link: '#',
     },
     {
       title: 'Policy & Governance',
       description:
         'We work with governments and partners to build laws and systems that protect people and promote responsible innovation.',
-      image: '/images/governance.jpg',
+      image: '/images/governance.webp',
       link: '#',
     },
   ];
@@ -87,13 +87,13 @@ const HomePage = () => {
             grayscale={false}
           >
             {[
-              { Image: '/images/hero1.jpg' },
-              { Image: '/images/hero2.jpg' },
-              { Image: '/images/hero3.jpg' },
-              { Image: '/images/hero5.jpg' },
-              { Image: '/images/hero6.jpg' },
-              { Image: '/images/hero7.jpg' },
-              { Image: '/images/hero8.jpg' },
+              { Image: '/images/hero1.webp' },
+              { Image: '/images/hero2.webp' },
+              { Image: '/images/hero3.webp' },
+              { Image: '/images/hero5.webp' },
+              { Image: '/images/hero6.webp' },
+              { Image: '/images/hero7.webp' },
+              { Image: '/images/hero8.webp' },
             ].map((logo) => (
               <div
                 key={logo.Image}
