@@ -1,34 +1,13 @@
 {
-  "name": "sdt-website",
-  "version": "0.1.0",
-  "private": true,
+  "name": "pixelspulse",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
   "scripts": {
-    "dev": "vite --port ${PORT:-5173}",
-    "build": "vite build",
-    "start": "npm run dev",
-    "preview": "vite preview",
-    "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0"
+    "build": "npm install --prefix frontend && npm run build --prefix frontend",
+    "start": "npm run start --prefix frontend"
   },
-  "dependencies": {
-    "framer-motion": "^12.23.24",
-    "lucide-react": "^0.545.0",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "react-fast-marquee": "^1.6.5",
-    "react-router-dom": "^7.9.4"
-  },
-  "devDependencies": {
-    "@eslint/js": "^9.37.0",
-    "@types/react": "19.2.2",
-    "@vitejs/plugin-react": "^5.0.4",
-    "autoprefixer": "^10.4.16",
-    "eslint": "^8.57.1",
-    "eslint-plugin-react": "^7.37.5",
-    "eslint-plugin-react-hooks": "^7.0.0",
-    "eslint-plugin-react-refresh": "^0.4.23",
-    "postcss": "^8.4.31",
-    "tailwindcss": "^3.3.5",
-    "terser": "^5.44.0",
-    "vite": "^7.1.9"
-  }
+  "keywords": [],
+  "author": "Ibrahim Abdullahi <kaliibro777@gmail.com>",
+  "license": "ISC"
 }

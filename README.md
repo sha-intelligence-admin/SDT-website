@@ -1,48 +1,178 @@
-# SDT Website
+# SHA Development Trust (SDT) Website
 
-A modern React Next.js website built with TypeScript and Tailwind CSS.
+The official website for SHA Development Trust - advancing ethical, inclusive, and responsible technology for people and communities around the world.
 
-## Getting Started
+## About SDT
 
-First, install the dependencies:
+SHA Development Trust is the impact arm of Sha Intelligence, dedicated to making technology safe, fair, and useful for everyone by supporting education, research, and innovation that put people first.
 
-```bash
-npm install
-# or
-yarn install
-# or
-pnpm install
+## 🚀 Tech Stack
+
+- **Framework**: React 19 with Vite 7
+- **Styling**: Tailwind CSS v4 with custom theme
+- **Animations**: Framer Motion 12
+- **Routing**: React Router DOM 7
+- **Icons**: Lucide React
+- **Performance**: Custom lazy loading with Intersection Observer
+- **Typography**: Google Fonts (Google Sans)
+
+## 📁 Project Structure
+
+```
+SDT-website/
+├── frontend/                 # Main React application
+│   ├── src/
+│   │   ├── components/      # Reusable components
+│   │   │   ├── Button.jsx   # Custom button component
+│   │   │   ├── FocusCard.jsx # Focus area cards
+│   │   │   ├── Header.jsx   # Navigation header
+│   │   │   ├── Footer.jsx   # Site footer
+│   │   │   └── LazyImage.jsx # Performance-optimized image component
+│   │   ├── pages/           # Page components
+│   │   │   ├── HomePage.jsx # Main landing page
+│   │   │   ├── AboutPage.jsx # About SDT
+│   │   │   ├── FocusPage.jsx # Our focus areas
+│   │   │   ├── FundingPage.jsx # Programs & funding
+│   │   │   ├── PrivacyPage.jsx # Privacy policy
+│   │   │   └── TermsPage.jsx # Terms of service
+│   │   ├── globals.css      # Global styles & Tailwind config
+│   │   └── main.jsx         # Application entry point
+│   └── package.json         # Frontend dependencies
+├── package.json             # Root scripts
+└── README.md               # This file
 ```
 
-Then, run the development server:
+## 🌟 Features
+
+### Core Functionality
+- **Multi-page Application**: Home, About, Focus Areas, Programs, Privacy, Terms
+- **Responsive Design**: Fully responsive across all devices
+- **Performance Optimized**: 
+  - Lazy loading for images
+  - Intersection Observer for animations
+  - Optimized hero section rendering
+- **Accessibility**: Semantic HTML and proper alt texts
+- **Modern UI**: Google Material Design inspired interface
+
+### Animation & Interactions
+- **Smooth Animations**: Framer Motion powered transitions
+- **Scroll Animations**: Elements animate into view as you scroll
+- **Hero Carousels**: Interactive image marquees on homepage
+- **Hover Effects**: Subtle interactive feedback
+
+### Performance Features
+- **Lazy Image Loading**: Images load only when needed
+- **Fast Hero Rendering**: Immediate animation without viewport delays
+- **Optimized Build**: Vite-powered fast builds and hot reloading
+- **Modern JavaScript**: ES modules and latest React features
+
+## 🛠️ Getting Started
+
+### Prerequisites
+- Node.js 18+ 
+- npm or yarn package manager
+
+### Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/sha-intelligence-admin/SDT-website.git
+   cd SDT-website
+   ```
+
+2. **Install dependencies**
+   ```bash
+   # Install all dependencies
+   npm install
+   
+   # Or install frontend dependencies only
+   cd frontend
+   npm install
+   ```
+
+3. **Start development server**
+   ```bash
+   # From root directory
+   npm run start
+   
+   # Or from frontend directory
+   cd frontend
+   npm run dev
+   ```
+
+4. **Open your browser**
+   - Navigate to [http://localhost:5173](http://localhost:5173)
+   - The page will auto-reload as you make changes
+
+### Build for Production
 
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
+# From root directory
+npm run build
+
+# Or from frontend directory
+cd frontend
+npm run build
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## � Available Scripts
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Root Directory
+- `npm run build` - Build the frontend application
+- `npm run start` - Start the development server
 
-## Features
+### Frontend Directory
+- `npm run dev` - Start Vite development server
+- `npm run build` - Build for production
+- `npm run preview` - Preview production build
+- `npm run lint` - Run ESLint code linting
 
-- ⚡️ Next.js 14 with App Router
-- ⚛️ React 18
-- 🎨 Tailwind CSS for styling
-- 📝 TypeScript support
-- 🚀 Modern development experience
+## 🎨 Customization
 
-## Learn More
+### Tailwind Configuration
+The project uses Tailwind CSS v4 with custom theme variables defined in `frontend/src/globals.css`:
 
-To learn more about Next.js, take a look at the following resources:
+```css
+@theme {
+  --color-primary: #476dd2;
+  --color-secondary: #000000;
+  --font-sans: "Google Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+}
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Adding New Pages
+1. Create new component in `frontend/src/pages/`
+2. Add route in `frontend/src/App.jsx`
+3. Update navigation in `frontend/src/components/Header.jsx`
 
-## Deploy on Vercel
+## 🌍 Organization Focus Areas
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+The website showcases SDT's four key focus areas:
+
+1. **Education & Skills** - Digital and AI skills training
+2. **Research & Ethics** - Safe and fair technology exploration  
+3. **Innovation & Support** - Backing technology solutions for communities
+4. **Policy & Governance** - Responsible innovation frameworks
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'Add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📄 License
+
+This project is licensed under the ISC License.
+
+## 📧 Contact
+
+**SHA Development Trust**
+- Website: [Coming Soon]
+- Email: [Contact Information]
+- Author: Ibrahim Abdullahi <kaliibro777@gmail.com>
+
+---
+
+*"Technology for Humanity" - Advancing ethical, inclusive, and responsible technology for people and communities around the world.*
