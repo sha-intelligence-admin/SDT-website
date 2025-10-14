@@ -7,4 +7,12 @@ export default defineConfig({
     react(),
     tailwindcss(),
   ],
+  preview: {
+    host: '0.0.0.0',
+    port: process.env.PORT || 4173,
+    allowedHosts: [
+      'sdt-website.onrender.com', // ✅ Allow Render domain
+      'localhost',                // ✅ Allow local dev
+    ],
+  },
 })
