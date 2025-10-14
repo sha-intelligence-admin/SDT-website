@@ -113,7 +113,7 @@ const HomePage = () => {
       </section>
       <section
         id="focus"
-        className="mb-20 w-full min-h-screen overflow-hidden px-4 flex flex-col space-y-6 justify-center items-center text-center border-none"
+        className="mb-12 w-full min-h-screen overflow-hidden px-4 flex flex-col space-y-6 justify-center items-center text-center border-none"
       >
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -145,7 +145,7 @@ const HomePage = () => {
           Learn More
         </a>
       </section>
-      <section
+      {/* <section
         id="cta"
         className="w-full max-w-4xl mx-auto min-h-screen overflow-hidden px-4 flex flex-col md:flex-row space-y-6 md:space-y-0 justify-center items-center text-center md:text-start border-none"
       >
@@ -191,7 +191,7 @@ const HomePage = () => {
             transition={{ duration: 0.6 }}
           >
             <h1 className="text-3xl mb-4 max-w-2xl mx-auto text-gray-800 sm:text-4xl lg:text-5xl">
-              Empowering People Through Innovation
+              Funding & Programs
             </h1>
           </motion.div>
           <motion.div
@@ -213,7 +213,7 @@ const HomePage = () => {
             </a>
           </motion.div>
         </div>
-      </section>
+      </section> */}
     </div>
   );
 };

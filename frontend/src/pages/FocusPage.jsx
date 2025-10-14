@@ -21,13 +21,13 @@ const FocusPage = () => {
             &ldquo;Empowering people through ethical technology&rdquo;
           </h1>
         </motion.div>
-        <div className="relative mt-12 w-full h-[600px] lg:h-[500px] overflow-hidden flex items-start justify-start">
+        {/* <div className="relative mt-12 w-full h-[600px] lg:h-[500px] overflow-hidden flex items-start justify-start">
           <img
             src="/images/focus.webp"
             alt="Human-centered technology"
             className="w-full h-full object-cover object-top"
           />
-        </div>
+        </div> */}
       </section>
       <section
         id="about"
@@ -188,12 +188,9 @@ const FocusPage = () => {
           Together for a Human-Centered Future
         </h1>
         <p className="mt-6 leading-relaxed text-lg">
-          Our mission is simple but profound —{' '}
-          <b>to build a world where technology empowers everyone</b>,
-          strengthens communities, and preserves what makes us human. Through
-          education, research, innovation, and policy, we’re shaping a future
-          where technology truly <b>serves humanity</b> — not the other way
-          around.
+          Our mission is simple but profound — To make technology safe, fair,
+          and useful for everyone by supporting education, research, and
+          innovation that put people first.
         </p>
       </motion.div>
     </div>
