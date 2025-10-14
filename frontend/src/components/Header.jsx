@@ -2,16 +2,20 @@ import React, { useState } from 'react';
 import { MenuIcon, X } from 'lucide-react';
 // eslint-disable-next-line no-unused-vars
 import { motion, AnimatePresence } from 'framer-motion';
-import { Link } from 'react-router-dom';
+import { Link, useLocation } from 'react-router-dom';
 
 const Header = () => {
   const [isOpen, setIsOpen] = useState(false);
+  const location = useLocation();
 
   const toggleDrawer = () => setIsOpen(!isOpen);
   const closeDrawer = () => setIsOpen(false);
 
+  // Helper function to check if link is active
+  const isActive = (path) => location.pathname === path;
+
   return (
-    <header className=" top-0 left-0 w-full bg-white z-[110]">
+    <header className="top-0 left-0 w-full bg-white z-[110]">
       <div className="max-w-7xl mx-auto px-4 lg:px-8 flex items-center justify-between h-16">
         {/* Left: Mobile Menu Button + Logo */}
         <div className="flex items-center gap-3">
@@ -52,19 +56,44 @@ const Header = () => {
 
         {/* Center: Desktop Nav */}
         <nav className="hidden lg:flex space-x-6 font-medium text-gray-700">
-          <Link to="/funding" className="hover:text-secondary transition">
+          <Link
+            to="/funding"
+            className={`transition ${
+              isActive('/funding') ? 'text-secondary' : 'hover:text-secondary'
+            }`}
+          >
             Funding & Programs
           </Link>
-          <Link to="/focus" className="hover:text-secondary transition">
+          <Link
+            to="/focus"
+            className={`transition ${
+              isActive('/focus') ? 'text-secondary' : 'hover:text-secondary'
+            }`}
+          >
             Our Focus
           </Link>
-          <Link to="/about" className="hover:text-secondary transition">
+          <Link
+            to="/about"
+            className={`transition ${
+              isActive('/about') ? 'text-secondary' : 'hover:text-secondary'
+            }`}
+          >
             About SDT
           </Link>
-          <Link to="/terms" className="hover:text-secondary transition">
+          <Link
+            to="/terms"
+            className={`transition ${
+              isActive('/terms') ? 'text-secondary' : 'hover:text-secondary'
+            }`}
+          >
             Terms
           </Link>
-          <Link to="/privacy" className="hover:text-secondary transition">
+          <Link
+            to="/privacy"
+            className={`transition ${
+              isActive('/privacy') ? 'text-secondary' : 'hover:text-secondary'
+            }`}
+          >
             Privacy
           </Link>
         </nav>
@@ -107,31 +136,55 @@ const Header = () => {
               <div className="flex flex-col space-y-6 font-medium text-gray-700">
                 <Link
                   to="/funding"
-                  className="hover:text-secondary transition"
+                  className={`transition ${
+                    isActive('/funding')
+                      ? 'text-secondary'
+                      : 'hover:text-secondary'
+                  }`}
                   onClick={closeDrawer}
                 >
                   Funding & Programs
                 </Link>
-                <Link to="/focus" className="hover:text-secondary transition">
+                <Link
+                  to="/focus"
+                  className={`transition ${
+                    isActive('/focus')
+                      ? 'text-secondary'
+                      : 'hover:text-secondary'
+                  }`}
+                  onClick={closeDrawer}
+                >
                   Our Focus
                 </Link>
                 <Link
                   to="/about"
-                  className="hover:text-secondary transition"
+                  className={`transition ${
+                    isActive('/about')
+                      ? 'text-secondary'
+                      : 'hover:text-secondary'
+                  }`}
                   onClick={closeDrawer}
                 >
                   About SDT
                 </Link>
                 <Link
                   to="/terms"
-                  className="hover:text-secondary transition"
+                  className={`transition ${
+                    isActive('/terms')
+                      ? 'text-secondary'
+                      : 'hover:text-secondary'
+                  }`}
                   onClick={closeDrawer}
                 >
                   Terms
                 </Link>
                 <Link
                   to="/privacy"
-                  className="hover:text-secondary transition"
+                  className={`transition ${
+                    isActive('/privacy')
+                      ? 'text-secondary'
+                      : 'hover:text-secondary'
+                  }`}
                   onClick={closeDrawer}
                 >
                   Privacy
