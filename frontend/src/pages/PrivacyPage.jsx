@@ -5,7 +5,7 @@ import { motion } from 'framer-motion';
 const PrivacyPage = () => {
   return (
     <div>
-      <section className="w-full min-h-[600px] flex flex-col items-center justify-center bg-white overflow-hidden px-4">
+      <section className="w-full flex flex-col items-center justify-center bg-white overflow-hidden px-4">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}

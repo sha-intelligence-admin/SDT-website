@@ -6,7 +6,7 @@ import { motion } from 'framer-motion';
 const FocusPage = () => {
   return (
     <div>
-      <section className="w-full min-h-[600px] flex flex-col items-center justify-center bg-white overflow-hidden">
+      <section className="w-full flex flex-col items-center justify-center bg-white overflow-hidden">
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           animate={{ opacity: 1, y: 0 }}
@@ -17,7 +17,7 @@ const FocusPage = () => {
             <h1 className="text-sm text-gray-800 leading-snug">Our Focus</h1>
           </div>
 
-          <h1 className="mt-6 px-4 text-3xl sm:text-4xl lg:text-5xl italic">
+          <h1 className="my-6 px-4 text-3xl sm:text-4xl lg:text-5xl italic">
             &ldquo;Empowering people through ethical technology&rdquo;
           </h1>
         </motion.div>
