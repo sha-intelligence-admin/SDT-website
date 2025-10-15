@@ -13,6 +13,7 @@ export default defineConfig({
     allowedHosts: [
       'sdt-website.onrender.com', // ✅ Allow Render domain
       'localhost',                // ✅ Allow local dev
+      'development.shaintelligence.com', // ✅ Allow development domain
     ],
   },
 })
